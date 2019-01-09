@@ -1,0 +1,22 @@
+export("vagam",
+"plot.vagam",
+"predict.vagam",
+"gamsim"
+)
+
+S3method(plot,vagam)
+S3method(predict,vagam)
+S3method(print,vagam)
+S3method(summary,vagam)
+
+import(mgcv)
+import(gamm4)
+import(Matrix)
+import(mvtnorm)
+import(truncnorm)
+
+importFrom("graphics", "lines", "plot")
+importFrom("stats", "binomial", "dbinom", "dnorm", "dpois", "gaussian",
+           "glm.fit", "pchisq", "pnorm", "poisson", "qnorm", "rbinom",
+            "rnorm", "rpois", "runif")
+importFrom("utils", "Rprof")

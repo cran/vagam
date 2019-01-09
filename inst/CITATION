@@ -1,0 +1,19 @@
+year <- sub("-.*", "", meta$Date)
+vers <- paste("R package version", meta$Version)
+
+citHeader("To cite the vagam package, use:")
+
+bibentry(bibtype = "Manual",
+  title = "{vagam}: Variational Approximations for Generalized Additive Models",
+  author = personList(as.person("Han Lin Shang"), as.person("Francis K.C. Hui")),
+  year = year,
+  note = vers,
+  url = "https://CRAN.R-project.org/package=vagam")
+
+
+bibentry(bibtype = "Article",
+  title     = "Semiparametric regression using variational approximations",
+  author    = personList(as.person("F. K. C. Hui"), as.person("C. You"), as.person("H. L. Shang"), as.person("S. Mueller")),
+  journal   = "Journal of the American Statistical Association",
+  year      =  2019,
+  url       = "https://arxiv.org/abs/1810.01949")
