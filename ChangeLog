@@ -1,0 +1,4 @@
+v 1.1
+
+1. Replace while (class(try(solve(obs_info), silent = TRUE)) == "try-error") {
+by while(!inherits(try(solve(obs_info), silent = TRUE), "try-error")){

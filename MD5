@@ -1,4 +1,5 @@
-7a65b581942050b04f58e50ef4f8cb31 *DESCRIPTION
+cd56d4690c53dd48fc64f45ae280f058 *ChangeLog
+a23fb781c7174642347b8e96fc452e27 *DESCRIPTION
 2d2780abffa2c70f6f0deee116c7d59f *NAMESPACE
 674bc719e21177b96a80058bf5b77c0f *R/calc.VAlogL.R
 1a05cab1d0ded7738ea6337f1d46a5c4 *R/gamsim.R
@@ -11,9 +12,8 @@ ba522afd5d01463cbfa14affa86b2871 *R/simrun_binomial_internal.R
 76cbeae3a29a990f9bf28dab75a7810a *R/simrun_normal_internal.R
 7b437c4c5008966c39f24381bc0ba17e *R/simrun_poisson_internal.R
 127a9ab366f0310ab9976ba8a874272d *R/summary.vagam.R
-9c5dba6b1a9e81496f410b25838b80d2 *R/vagam-internal.R
-d8b24a0b2f945b4c0f3140d13aa1455b *R/vagam.R
-b071414b1a35b905a2687dca3fd945f5 *build/partial.rdb
+b959762cb67022d3f1915bf657ff6490 *R/vagam.R
+4242482c67461f1a32fb637f8111cedd *build/partial.rdb
 3e7515ae1c54dd75e365acb7fdc39856 *data/wage_data.rda
 fbb670e60d53414ae50afdd14905245b *inst/CITATION
 5eda249858a5ca5a6b8eb302d6fe8fa8 *man/gamsim.Rd
